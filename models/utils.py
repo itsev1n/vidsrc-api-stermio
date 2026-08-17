@@ -2,7 +2,7 @@ import httpx,base64
 from fastapi import HTTPException
 from urllib.parse import unquote
 
-BASE = 'http://localhost:8000'
+BASE = "https://vidsrc-api-stermio-kvw6.vercel.app"
 
 async def default():
     return ''
